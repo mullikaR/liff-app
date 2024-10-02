@@ -5,7 +5,7 @@ const HomePage = () => {
   useEffect(() => {
     const initializeLiff = async () => {
       try {
-        await liff.init({ liffId: "2006415530" });
+        await liff.init({ liffId: "2006415569-oNMOANR3" });
         if (liff.isLoggedIn()) {
           const profile = await liff.getProfile();
           console.log("User Name:", profile.displayName);
